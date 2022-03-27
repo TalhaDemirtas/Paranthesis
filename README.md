@@ -7,17 +7,17 @@ Open brackets must be closed in the correct order.
 Note that an empty string is also considered valid.
 
 Example 1: 
-   Input  : '()'
+   Input  : '( )'
    Output : True
 
 Example 2: 
-   Input  : '()[]{}'
+   Input  : '( ) [ ] { }'
    Output : True
 
 Example 3: 
-   Input  : '(]'
+   Input  : '( ]'
    Output : False
 
 Example 4: 
-   Input  : '([)]'
+   Input  : '( [ ) ]'
    Output : False
