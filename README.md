@@ -9,12 +9,15 @@ Note that an empty string is also considered valid.
 Example 1: 
    Input  : '()'
    Output : True
+
 Example 2: 
    Input  : '()[]{}'
    Output : True
+
 Example 3: 
    Input  : '(]'
    Output : False
+
 Example 4: 
    Input  : '([)]'
    Output : False
